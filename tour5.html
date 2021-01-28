@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Agence Catalog</title>
+</head>
+<body bgcolor="LightBlue">
+    <table border="1" 
+           align="center" 
+           cellpadding="10"
+           bgcolor="LightGoldenRodYellow">
+        <tr>
+            <td bgcolor="Moccasin" width="640">
+                <h1>The famous waterfall in the National Park</h1>
+                <img src="images/yosemite-1771239_640.jpg" alt="car">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, beatae, officiis iure doloremque ducimus fuga distinctio velit fugit maxime, assumenda ipsa. Repudiandae dicta id in aut ea libero ex, beatae illo animi, fugiat, incidunt sequi!
+                    <ul>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Facilis, autem facere?</li>
+                        <li>Explicabo, voluptas accusamus.</li>
+                        <li>Numquam, voluptate laboriosam?</li>
+                        <li>Quos, consequatur ratione.</li>
+                    </ul>
+                </p>
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <form action="thankyou.html">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <br>
+                        <label> <strong> Your full name: </strong> 
+                            <input type="text" 
+                                    size="60"
+                                    required
+                                    name="fullname"/>
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <strong>Your phone number:</strong>
+                            <select name="code-number-country">
+                                <option>
+                                    +373
+                                </option>
+                                <option >
+                                    +359
+                                </option>
+                                <option >
+                                    +377
+                                </option>
+                                <option >
+                                    +47
+                                </option>
+                                <option >
+                                    +48
+                                </option>
+                            </select>
+                            <input type="number" min="1" name="your-phone-number" required/>
+                        </label>
+                        <br><br>
+                        <label>
+                            <strong>Your address:</strong>
+                            <select name="country">
+                                <optgroup label="Country">
+                                <option>
+                                    Republica Moldova
+                                </option>
+                                <option>
+                                    Bulgaria
+                                </option>
+                                <option>
+                                    Monaco
+                                </option>
+                                <option>
+                                    Norvegia
+                                </option>
+                                <option>
+                                    Polonia
+                                </option>
+                                </optgroup>
+                            </select>
+
+                            <select name="city">
+                                <optgroup label="City">
+                                <option>Chisinau</option>
+                                <option>Sofia</option>
+                                <option>Monte Carlo</option>
+                                <option>Oslo</option>
+                                <option>Varsovia</option>
+                                </optgroup>
+                            </select>
+                            <input type="text" required name="address"/>
+                        </label>
+                        <br><br>
+                        <label>
+                            <strong>Your email:</strong>
+                            <input type="email" required name="email"/>
+                        </label>
+                    </fieldset>
+                    <br>
+                    <hr>
+                    <p align="right">
+                    <button>NEXT <img align="middle"src="images/Actions-go-next-icon.png"></button>
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
